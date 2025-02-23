@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # Define paths to the dataset
-train_dir = "aclImdb/train"
-test_dir = "aclImdb/test"
+train_dir = "../aclImdb/train"
+test_dir = "../aclImdb/test"
 
 # Function to load data from positive and negative folders
 def load_data_from_folder(folder_path):
